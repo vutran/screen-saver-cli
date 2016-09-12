@@ -1,0 +1,38 @@
+{
+  "name": "screen-saver-cli",
+  "version": "0.0.0",
+  "description": "Starts the screensaver via the command-line.",
+  "keywords": [
+    "screensaver",
+    "screen-saver",
+    "cli",
+    "command-line"
+  ],
+  "main": "cli.js",
+  "files": [
+    "cli.js"
+  ],
+  "bin": {
+    "screen-saver": "cli.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && jest"
+  },
+  "author": "Vu Tran <vu@vu-tran.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vutran/screen-saver-cli.git"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "screen-saver": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-plugin-import": "^1.14.0",
+    "jest": "^15.1.1"
+  }
+}
