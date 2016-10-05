@@ -17,7 +17,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint && jest"
+    "test": "npm run lint"
   },
   "author": "Vu Tran <vu@vu-tran.com>",
   "license": "MIT",
@@ -30,9 +30,8 @@
     "screen-saver": "^0.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.5.0",
-    "eslint-config-airbnb-base": "^7.1.0",
-    "eslint-plugin-import": "^1.14.0",
-    "jest": "^15.1.1"
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^2.0.0"
   }
 }
