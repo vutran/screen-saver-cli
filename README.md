@@ -1,6 +1,6 @@
 # screen-saver-cli
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/vutran/screen-saver-cli.svg?maxAge=2592000&style=flat-square)](LICENSE)
 
 > Starts the screensaver via the command-line.
 
