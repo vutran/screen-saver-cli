@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "meow": "^3.7.0",
-    "screen-saver": "^0.1.0"
+    "screen-saver": "^0.2.1"
   },
   "devDependencies": {
     "eslint": "^3.7.1",
