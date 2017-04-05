@@ -1,6 +1,6 @@
 {
   "name": "screen-saver-cli",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Starts the screensaver via the command-line.",
   "keywords": [
     "screensaver",
