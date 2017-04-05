@@ -18,6 +18,7 @@
   "scripts": {
     "lint": "prettier --single-quote --trailing-comma=es5 --print-width=90 --tab-width=4 --write 'lib/*.js' 'index.js'",
     "precommit": "npm run lint",
+    "postinstall": "npm run build",
     "build": "babel src/ --out-dir lib/",
     "test": "npm run lint"
   },
@@ -29,7 +30,7 @@
   },
   "dependencies": {
     "screen-saver": "^0.2.1",
-    "wonders": "^0.3.0"
+    "wonders": "^0.3.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
