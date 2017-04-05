@@ -8,15 +8,17 @@
     "cli",
     "command-line"
   ],
-  "main": "cli.js",
+  "main": "lib/cli.js",
   "files": [
-    "cli.js"
+    "lib/"
   ],
   "bin": {
-    "screen-saver": "cli.js"
+    "screen-saver": "lib/index.js"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "prettier --single-quote --trailing-comma=es5 --print-width=90 --tab-width=4 --write 'lib/*.js' 'index.js'",
+    "precommit": "npm run lint",
+    "build": "babel src/ --out-dir lib/",
     "test": "npm run lint"
   },
   "author": "Vu Tran <vu@vu-tran.com>",
@@ -26,12 +28,14 @@
     "url": "https://github.com/vutran/screen-saver-cli.git"
   },
   "dependencies": {
-    "meow": "^3.7.0",
-    "screen-saver": "^0.2.1"
+    "screen-saver": "^0.2.1",
+    "wonders": "^0.3.0"
   },
   "devDependencies": {
-    "eslint": "^3.7.1",
-    "eslint-config-airbnb-base": "^8.0.0",
-    "eslint-plugin-import": "^2.0.0"
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "prettier": "^0.22.0"
   }
 }
