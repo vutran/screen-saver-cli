@@ -18,6 +18,7 @@ $ screen-saver
 
 ## Related
 
+- [Wonders](https://github.com/vutran/wonders/) - Declarative framework for building CLI apps.
 - [screen-saver](https://github.com/vutran/screen-saver/) - Starts the screensaver.
 
 ## License
